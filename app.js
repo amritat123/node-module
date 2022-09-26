@@ -3,8 +3,10 @@
 
 
 // file system are core module
-const file_system = require('file_system');
+const fs = require('fs');
 
 // If I want to use it module file in app.js file so bring it in.
 const fun1 = require("./module");
+
+fun1();
 
