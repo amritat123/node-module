@@ -11,7 +11,9 @@ const fs = require('fs');
 const mod = require("./module");
 
 // const mod1 = require('./Modules/coder.js')
-const mod1 = require('./Modules/coder')
+// const mod1 = require('./Modules/coder')
+// with shortcut..
+const mod1 = require ("./Modules")
 
 // For both function...
 mod.fun1();
