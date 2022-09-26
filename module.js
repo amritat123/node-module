@@ -10,4 +10,12 @@ const fun2 = function () {
 }
 
 // if exporting FUNC2 will be visible to public || but fun2 will be PRIVATE in this file only.
-module.exports = fun1;
+// module.exports = fun1;
+
+// ........................Exports in another way........................
+// Providing spacific name for somthing I am exporting.
+// module.exports.fun1 = fun1;
+
+
+// ......................Exports in another way in OBJECT FORM..........................
+module.exports = { fun1,fun2};

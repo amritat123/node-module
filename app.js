@@ -6,7 +6,9 @@
 const fs = require('fs');
 
 // If I want to use it module file in app.js file so bring it in.
-const fun1 = require("./module");
+const mod = require("./module");
 
-fun1();
+// For both function...
+mod.fun1();
+mod.fun2();
 
