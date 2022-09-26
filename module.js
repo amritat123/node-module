@@ -8,6 +8,7 @@ const fun1= function (){
 const fun2 = function () {
     console.log(" this is function fun2 inside of module.js file");
 }
+const num = 3.12;
 
 // if exporting FUNC2 will be visible to public || but fun2 will be PRIVATE in this file only.
 // module.exports = fun1;
@@ -18,4 +19,4 @@ const fun2 = function () {
 
 
 // ......................Exports in another way in OBJECT FORM..........................
-module.exports = { fun1,fun2};
+module.exports = { fun1,fun2, num};
